@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: #213547;
-  background-color: #ffffff;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,14 +22,6 @@ a {
 a:hover {
   color: #005564;
 }
-
-/* body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: black;
-  padding-top: 4rem;
-} */
 
 h1 {
   font-size: 2.2em;
