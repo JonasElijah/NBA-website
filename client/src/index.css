@@ -13,7 +13,7 @@
   -webkit-text-size-adjust: 100%;
 } */
 
-#root {
+/* #root {
   margin: 0 auto;
   padding: 2rem;
   border: 1px solid #007d9354;
@@ -24,7 +24,7 @@
   max-width: 800px;
   box-sizing: border-box;
 
-}
+} */
 
 a {
   font-weight: 500;
