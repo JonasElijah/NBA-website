@@ -50,14 +50,14 @@ h1 {
 
 
 
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
   border-bottom: 1px solid #007d9354;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-}
+} */
 
 nav {
   display: flex;
