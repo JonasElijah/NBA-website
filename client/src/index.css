@@ -20,7 +20,7 @@
 
 a {
   font-weight: 500;
-  color: #007d93;
+  color: var(--secondaryColor);
   text-decoration: inherit;
 }
 a:hover {
@@ -50,7 +50,7 @@ nav {
 }
 
 footer {
-  border-top: 1px solid #007d9354;
+  border-top: 1px solid var(--thirdColor);
   text-align: center;
   padding-top: 1rem;
   margin-top: 3rem;
