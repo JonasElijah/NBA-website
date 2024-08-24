@@ -1,6 +1,6 @@
 import React from 'react'
 
-function about() {
+function players() {
   return (
     <>
       <h1>Players page</h1>

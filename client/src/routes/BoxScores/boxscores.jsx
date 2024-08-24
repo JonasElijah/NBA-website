@@ -1,6 +1,6 @@
 import React from 'react'
 
-function about() {
+function boxscores() {
   return (
     <>
       <h1>Box Scores</h1>

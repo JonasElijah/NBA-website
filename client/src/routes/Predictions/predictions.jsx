@@ -1,6 +1,6 @@
 import React from 'react'
 
-function about() {
+function predictions() {
   return (
     <>
       <h1>Predictions</h1>
