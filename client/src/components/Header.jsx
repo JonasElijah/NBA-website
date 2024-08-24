@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <header>
-        <Link to="/" className="logo"><img src={logo} alt="React" />React</Link>
+        <Link to="/" className="logo"><img src={logo} alt="React" />NBA Website</Link>
         <nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/books">Books</NavLink>
