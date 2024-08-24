@@ -1,3 +1,24 @@
+ const http = require('http');
+
+ // Define the port to listen on
+ const port = 8000;
+
+ // Create an HTTP server
+ const server = http.createServer((req, res) => {
+   // Set the response HTTP header with HTTP status and Content type
+     res.statusCode = 200;
+       res.setHeader('Content-Type', 'text/plain');
+         
+           // Send the response body "Hello World"
+             res.end('Hello World\n');
+             });
+
+             // Start the server and have it listen on the specified port
+             server.listen(port, () => {
+               console.log(`Server running at http://localhost:${port}/`);
+               });
+               
+/*
 require('dotenv').config();
 const cors = require('cors');
 const express = require('express');
@@ -51,3 +72,5 @@ app.listen(PORT, () => {
 //   "name":"The Lord of the Rings",
 //   "body":"Example description goes here."
 // }
+//
+*/
