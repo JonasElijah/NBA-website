@@ -7,7 +7,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: #213547;
+  color: var(--secondaryColor);
   background-color: var(--primaryColor);
 
   font-synthesis: none;
