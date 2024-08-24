@@ -35,13 +35,13 @@ a:hover {
   color: #005564;
 }
 
-body {
-  /* margin: 0;
+/* body {
+  margin: 0;
   min-width: 320px;
-  min-height: 100vh; */
+  min-height: 100vh;
   background-color: black;
-  /* padding-top: 4rem; */
-}
+  padding-top: 4rem;
+} */
 
 h1 {
   font-size: 2.2em;
