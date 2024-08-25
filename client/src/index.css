@@ -32,26 +32,29 @@ h1 {
   line-height: 1.1;
 }
 
-.app-container {
+.app-container 
+{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
 }
 
-.grid-container {
+.grid-container 
+{
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 900px; 
+  max-width: 1020px; 
   margin: 0 auto; 
   padding: 0 15px; 
   flex-grow: 1; 
 }
 
-header, footer {
+header, footer 
+{
   width: 100%;
-  max-width: 900px; 
+  max-width: 1020px; 
   margin: 0 auto; 
   padding: 0 15px; 
   box-sizing: border-box;
