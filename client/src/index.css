@@ -64,7 +64,6 @@ footer
 header
 {
   display: flex;
-  align-items: center;
   flex-direction: row;
   width: 100%;
   max-width: 1200px; 
@@ -79,7 +78,7 @@ nav {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
-  flex-grow: 20;
+  flex-grow: 2;
 }
 
 footer {
