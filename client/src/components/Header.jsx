@@ -27,7 +27,7 @@ function Header() {
               <option value="2021">2020-2021</option>
             </select>
           </div>         */}
-          <NavLink to="">teams</NavLink>
+          <NavLink to="">teams</NavLink> {/* will change these to expandable dropdown menus (accordions) in the future*/}
           <NavLink to="">seasons</NavLink>
           <NavLink to="/predictions">predictions</NavLink>
           <NavLink to="/boxscores">box scores</NavLink>
