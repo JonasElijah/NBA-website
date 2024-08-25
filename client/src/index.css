@@ -68,12 +68,14 @@ header {
   width: 100%; 
   max-width: 1200px; 
   box-sizing: border-box;
+  justify-content: space-around;
 }
 
 nav {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+
 }
 
 footer {
