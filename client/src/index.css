@@ -120,6 +120,8 @@ select {
 .select-wrapper::after {
   content: '▼'; 
   position: absolute;
+  /* right: 0.5em; */
+  top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
   color: var(--secondaryColor); 
