@@ -112,22 +112,22 @@ select {
 }
 
 .select-wrapper {
-  position: relative;
+  /* position: relative; */
 }
 
 .select-wrapper select {
-  width: 100%;
-  padding-right: 1em; 
+  /* width: 100%;
+  padding-right: 1em;  */
 }
 
 .select-wrapper::after {
-  content: '▼'; 
+  /* content: '▼'; 
   position: absolute;
-  /* right: 0.5em; */
+  right: 0.5em;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: var(--secondaryColor); 
+  color: var(--secondaryColor);  */
 }
 
 
