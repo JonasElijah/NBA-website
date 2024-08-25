@@ -9,7 +9,7 @@ function Header() {
         <Link to="/" ><h2 className="title">NBA Website</h2></Link>
         <nav>
           <NavLink to="/players">players</NavLink>
-          <div class="select-wrapper">
+          {/* <div class="select-wrapper">
             <select name="teams" id="teams">
               <option value="">teams</option>
               <option value="gsw">Warriors</option>
@@ -26,7 +26,9 @@ function Header() {
               <option value="2122">2021-2022</option>
               <option value="2021">2020-2021</option>
             </select>
-          </div>        
+          </div>         */}
+          <p>teams</p>
+          <p>seasons</p>
           <NavLink to="/predictions">predictions</NavLink>
           <NavLink to="/boxscores">box scores</NavLink>
         </nav>
