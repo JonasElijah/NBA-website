@@ -105,6 +105,7 @@ select {
   color: var(--secondaryColor);
   border: none;
   outline: none;
+  font-size: 1rem;
 }
 
 .select-wrapper {
