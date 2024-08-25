@@ -75,7 +75,7 @@ nav {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
-
+  flex-grow: 2;
 }
 
 footer {
