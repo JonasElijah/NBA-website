@@ -96,20 +96,24 @@ footer {
   font-size: 0.8rem;
 }
 
-select 
-{
-  border: 2px solid var(--thirdColor);
-  border-radius: 4px;
-  background-color: var(--secondaryColor);
-  color: var(--primaryColor);
-  font-size: 1rem;
-  padding: 0.5rem;
-  width: 100%; 
+.select-wrapper {
+  position: relative;
 }
 
-select:focus {
-  border-color: var(--fourthColor);
-  outline: none;
+.select-wrapper select {
+  width: 100%;
+  padding-right: 2em; 
+}
+
+.select-wrapper::after {
+  content: '▼'; 
+  position: absolute;
+  right: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 1em;
+  color: var(--thirdColor); 
 }
 
 
