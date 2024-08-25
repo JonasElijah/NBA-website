@@ -10,7 +10,7 @@ function Header() {
         <nav>
           <NavLink to="/players">players</NavLink>
           <select name="teams" id="teams">
-            <option value="gsw">Warriors</option>
+            <option value="gsw">Warriors</option> {/* each of these options will be navlinks for pages*/}
             <option value="lal">Lakers</option>
             <option value="sa">Spurs</option>
             <option value="dal">Mavericks</option>
