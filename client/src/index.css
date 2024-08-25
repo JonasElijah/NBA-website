@@ -101,12 +101,8 @@ select {
   -moz-appearance: none; 
   appearance: none; 
   background: transparent;
-  border: 2px solid var(--thirdColor); 
-  border-radius: 4px;
-  padding: 0.5rem;
-  padding-right: 2em; 
   width: 100%;
-  color: var(--primaryColor);
+  color: var(--secondaryColor);
   font-size: 1rem;
 }
 
