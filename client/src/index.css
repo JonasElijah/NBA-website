@@ -71,7 +71,7 @@ header
   margin: 0 auto; 
   padding: 0 15px; 
   box-sizing: border-box; */
-  justify-content: flex-start; 
+  justify-content: space-around; 
 }
 
 
