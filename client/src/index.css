@@ -32,7 +32,16 @@ h1 {
   line-height: 1.1;
 }
 
-
+.grid-container 
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 0 15px; 
+  box-sizing: border-box;
+}
 
 /* header {
   display: flex;
