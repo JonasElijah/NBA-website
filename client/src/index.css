@@ -61,7 +61,7 @@ footer
   box-sizing: border-box;
 }
 
-hheader {
+header {
   display: flex;
   align-items: center;
   flex-direction: row;
