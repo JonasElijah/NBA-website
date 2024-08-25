@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <header>
-        <Link to="/" className="logo"><img src={logo} alt="React" />NBA Website</Link>
+        <Link to="/" ><h2>NBA Website</h2></Link>
         <nav>
           <NavLink to="/players">players</NavLink>
           <select name="teams" id="teams">
