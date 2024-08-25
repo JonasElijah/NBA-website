@@ -82,11 +82,11 @@ header
   padding-bottom: 1rem;
 } */
 
-nav {
+/* nav {
   display: flex;
   gap: 1.2rem;
   align-items: center;
-}
+} */
 
 footer {
   border-top: 1px solid var(--thirdColor);
