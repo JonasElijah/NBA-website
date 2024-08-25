@@ -73,17 +73,20 @@ header {
 
 .title {
   grid-column: 1; 
+  background-color: #0073E6;
 }
 
 nav {
   grid-column: 2; 
   display: flex;
   gap: 1.2rem;
+  background-color: #EF0107;
 }
 
 .searchBar
 {
   grid-column: 3;
+  background-color: aqua;
 }
 
 
