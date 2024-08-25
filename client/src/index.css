@@ -63,7 +63,7 @@ footer
 
 header
 {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   flex-direction: row;
   width: 100%;
