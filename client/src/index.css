@@ -71,14 +71,15 @@ header
   margin: 0 auto; 
   padding: 0 15px; 
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
 nav {
   display: flex;
+  gap: 1.2rem;
   justify-content: center;
-  flex-grow: 3;
+  flex-grow: 2;
 }
 
 footer {
