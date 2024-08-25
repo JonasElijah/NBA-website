@@ -85,6 +85,8 @@ nav {
 
 .searchBar
 {
+  display: flex;
+  justify-content: flex-end;
   grid-column: 3;
   background-color: aqua;
 }
