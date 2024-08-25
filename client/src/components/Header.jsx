@@ -27,7 +27,7 @@ function Header() {
         {/*Create a search bar component in the future called SearchBar.jsx or something. Replace this paragraph element with it. 
         it will take in user input as props and works as a regular search bar
         https://www.youtube.com/watch?v=sWVgMcz8Q44  */}
-        <p>Search bar</p>
+        <p className="searchBar">Search bar</p>
       </header>
     </>
   );
