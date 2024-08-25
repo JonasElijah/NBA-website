@@ -63,7 +63,7 @@ footer
 
 header {
   display: grid;
-  grid-template-columns: 1fr auto 1fr; 
+  grid-template-columns: 1fr auto 1fr; /* this craetes a column of three idk how but it works*/
   align-items: center;
   width: 100%; 
   max-width: 1200px; 
@@ -72,14 +72,12 @@ header {
 
 .title {
   grid-column: 1; 
-  background-color: #0073E6;
 }
 
 nav {
   grid-column: 2; 
   display: flex;
   gap: 1.2rem;
-  background-color: #EF0107;
 }
 
 .searchBar
@@ -87,7 +85,6 @@ nav {
   display: flex;
   justify-content: flex-end;
   grid-column: 3;
-  background-color: aqua;
 }
 
 
