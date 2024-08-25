@@ -21,7 +21,6 @@ function App() {
             <Route path="/players" element={<Players />} />          
             <Route path="/predictions" element={<Predictions />} />
             <Route path="/boxscores" element={<BoxScores />} />
-
           </Routes>
           <Footer />
         </div>
