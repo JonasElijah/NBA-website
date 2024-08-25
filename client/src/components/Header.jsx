@@ -27,6 +27,8 @@ function Header() {
               <option value="2021">2020-2021</option>
             </select>
           </div>         */}
+          <NavLink to="">teams</NavLink>
+          <NavLink to="">seasons</NavLink>
           <NavLink to="/predictions">predictions</NavLink>
           <NavLink to="/boxscores">box scores</NavLink>
         </nav>
