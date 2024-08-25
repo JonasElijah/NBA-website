@@ -98,6 +98,7 @@ footer {
 
 .select-wrapper {
   position: relative;
+  background: transparent;
 }
 
 .select-wrapper select {
