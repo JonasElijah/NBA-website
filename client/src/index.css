@@ -104,7 +104,7 @@ select {
   -moz-appearance: none; 
   appearance: none; 
   background: transparent;
-  width: 100%;
+  width: 50%;
   color: var(--secondaryColor);
   border: none;
   outline: none;
